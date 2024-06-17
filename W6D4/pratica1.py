@@ -3,7 +3,7 @@ from math import pi
 
 def perim_quadrato():
     lato = float(input("Inserisci il lato del quadrato: "))
-    print( "Il perimetro del quadrato è = ", lato*4 )
+    print( "Il perimetro del quadrato è: ", lato*4 )
 
 def perim_rettangolo():
     base = float(input("Inserisci la base del rettangolo: "))
@@ -12,21 +12,21 @@ def perim_rettangolo():
 
 def perim_cerchio():
     raggio = float(input("Inserisci il raggio del cerchio: "))
-    print( "Il perimetro del cerchio è", 2*pi*raggio)
+    print( "Il perimetro del cerchio è: ", 2*pi*raggio)
 
 def perim_triangolo():
     lato_tr = float(input("Inserisci il lato del triangolo equilatero: "))
-    print( "Il perimetro del triangolo equilatero è", 3*lato_tr)
+    print( "Il perimetro del triangolo equilatero è: ", 3*lato_tr)
 
 def perim_rombo():
     lato_rombo = float(input("Inserisci il lato del rombo: "))
-    print( "Il perimetro del rombo è", 4*lato_rombo)
+    print( "Il perimetro del rombo è: ", 4*lato_rombo)
 
 def esci():
     print("Ciao!")
 
 def cm_invalido():
-    print("Opzione invalida. Ritenta.")
+    print("\nOpzione invalida. Inserisci un'opzione valida.")
 
 menu = """
    1) Quadrato
